@@ -1,0 +1,47 @@
+.contenedor {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    height: 841px;
+    background-color: rgba(66, 65, 65, 0.3);
+    color: white;
+    text-align: center;
+}
+
+.image {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    margin: 80px;
+    margin-top: 100px
+}
+
+.imagen {
+        height: 600px;
+        width: 600px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-radius: 50%;
+        background-size: 100% auto;
+        box-shadow: 30px 20px 20px rgba(0, 0, 0, 0.766);
+}
+
+.nombre {
+    font-size: 100px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.data {
+    margin-top: 50px;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

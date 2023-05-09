@@ -1,0 +1,55 @@
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0;
+    height: 941px;
+}
+
+.formulario {
+    background-color: rgba(128, 128, 128, 0.663);
+    width: 35%;
+    margin-left:32%;
+    height: 750px;
+    border-radius: 50px;
+    border: 5px solid black;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 80px;
+}
+
+.imagen {
+        height: 400px;
+        width: 400px;
+        background-repeat: no-repeat;
+        background-position: 50%;
+        border-radius: 50%;
+        background-size: 100% auto;
+        margin-top: 20px;
+        opacity: 0.9;
+}
+
+.botones {
+    width: 300px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5px;
+}
+
+.btn {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(129, 202, 21);
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-left: 480px;
+}

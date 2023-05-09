@@ -1,0 +1,38 @@
+.padre {
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.contenedor {
+    background-color: gray;
+    width: 70%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 15%;
+    border-radius: 30px;
+    display: flex;
+}
+
+.imagen {
+    margin: 50px;
+    border-radius: 50px;
+}
+
+.texto {
+    margin: 50px;
+    margin-left: 0px;
+    background-color: rgba(0, 0, 0, 0.314);
+    width: 50%;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+.texto2 {
+    margin: 30px;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+

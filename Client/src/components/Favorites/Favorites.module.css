@@ -1,0 +1,19 @@
+.fav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.filters {
+    background-color: gray;
+    opacity: 0.6;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.select {
+    border-radius: 7px;
+    margin: 5px;
+}
