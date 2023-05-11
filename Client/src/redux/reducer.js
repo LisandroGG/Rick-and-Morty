@@ -1,4 +1,4 @@
-import { ADD_FAV, FILTER, ORDER, REMOVE_FAV } from "./actions-type";
+import { ADD_FAV, FILTER, ORDER, REMOVE_FAV, REMOVE_COMPONENT_FAVORITE } from "./actions-type";
 
 const initialState = {
     myFavorites : [],
@@ -16,7 +16,7 @@ const reducer = (state = initialState, action) => {
             case REMOVE_FAV:
             return { 
                 ...state, 
-                myFavorites: state.myFavorites.filter((fav) => fav.id !== action.payload),
+                myFavorites: action.payload
             }
         case FILTER:
             let copyFilter = state.allCharacters.filter((character) => character.gender === action.payload)
